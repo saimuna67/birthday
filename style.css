@@ -15,7 +15,6 @@ position: relative;}
 100%{transform: translateY(0);}
 }
 
-
 .star {
   position: absolute;
   top: -10px;
@@ -25,7 +24,6 @@ position: relative;}
   border-radius: 50%;
   animation: fall linear infinite;
 }
-
 
 @keyframes fall {
   0% {
@@ -213,7 +211,7 @@ align-items: center;
     height: auto;
     max-width: 300px; }
     .write{font-size: 15vw;}
-    .h{font-size: 10vw;}
+    .h{font-size: 8vw;}
     .letter{margin-top: 32vh;}
     .click{margin-top: 10vh;}
     .letterr{font-size: 12px;}
@@ -263,13 +261,13 @@ align-items: center;
 
 @media only screen and (max-width: 600px){
   @keyframes moveUp {
-  to { transform: translate(30vw,30vh); opacity: 1; }
+  to { transform: translate(30vw,20vh); opacity: 1; }
 }
 @keyframes moveRight {
   to { transform: translate(-43vw,-30vh); opacity: 1; }
 }
 @keyframes moveDown {
-  to { transform: translate(-43vw,30vh); opacity: 1; }
+  to { transform: translate(-43vw,20vh); opacity: 1; }
 }
 @keyframes moveLeft {
   to { transform: translate(30vw,-30vh); opacity: 1; }
