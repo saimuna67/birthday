@@ -261,16 +261,16 @@ align-items: center;
 
 @media only screen and (max-width: 600px){
   @keyframes moveUp {
-  to { transform: translate(30vw,20vh); opacity: 1; }
+  to { transform: translate(30vw,30vh); opacity: 1; }
 }
 @keyframes moveRight {
-  to { transform: translate(-43vw,-30vh); opacity: 1; }
+  to { transform: translate(-43vw,-20vh); opacity: 1; }
 }
 @keyframes moveDown {
-  to { transform: translate(-43vw,20vh); opacity: 1; }
+  to { transform: translate(-43vw,30vh); opacity: 1; }
 }
 @keyframes moveLeft {
-  to { transform: translate(30vw,-30vh); opacity: 1; }
+  to { transform: translate(30vw,-20vh); opacity: 1; }
 }
 @keyframes moveDiagonal {
   to { transform: translate(13vw,17vh); opacity: 1; }
