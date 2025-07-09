@@ -129,7 +129,7 @@ flex-direction: column;
 
 .writee{  transform: translateX(-100%);
   opacity: 0;
-  animation: slideIn 5s ease forwards;}
+  animation: slideIn 7s ease forwards;}
 
 @keyframes slideIn {
   to {
@@ -216,7 +216,8 @@ align-items: center;
     .click{margin-top: 10vh;}
     .letterr{font-size: 12px;}
     .main{font-size: 30px;}
-    
+    .img2{left:65vw;}
+   .img4{left:65vw;}
 }
 
 #imgg1{ animation: moveUp 4s ease forwards; }
@@ -261,28 +262,28 @@ align-items: center;
 
 @media only screen and (max-width: 600px){
   @keyframes moveUp {
-  to { transform: translate(30vw,30vh); opacity: 1; }
+  to { transform: translate(30vw,33vh); opacity: 1; }
 }
 @keyframes moveRight {
-  to { transform: translate(-43vw,-20vh); opacity: 1; }
+  to { transform: translate(-43vw,-37vh); opacity: 1; }
 }
 @keyframes moveDown {
-  to { transform: translate(-43vw,30vh); opacity: 1; }
+  to { transform: translate(-43vw,33vh); opacity: 1; }
 }
 @keyframes moveLeft {
-  to { transform: translate(30vw,-20vh); opacity: 1; }
+  to { transform: translate(30vw,-37vh); opacity: 1; }
 }
 @keyframes moveDiagonal {
-  to { transform: translate(13vw,17vh); opacity: 1; }
+  to { transform: translate(13vw,16vh); opacity: 1; }
 }
 @keyframes up{
-  to { transform: translate(-21vw,17vh); opacity: 1; }
+  to { transform: translate(-21vw,16vh); opacity: 1; }
 }
 @keyframes right {
-  to { transform: translate(13vw,-17vh); opacity: 1; }
+  to { transform: translate(13vw,-20vh); opacity: 1; }
 }
 @keyframes left {
-  to { transform: translate(-21vw,-17vh); opacity: 1; }
+  to { transform: translate(-21vw,-20vh); opacity: 1; }
 }
  
 }
